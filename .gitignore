@@ -1,0 +1,19 @@
+# extensions to ignore
+# *.*~ evita las copias de seg de emacs
+
+*.rar
+*.zip
+*.tar
+
+# omitir carpetas
+apuntes/*
+prog_originales/*
+pract/MatFEM_original/*
+
+
+# omitir otros
+*.*~
+octave-workspace
+*.pdf
+*.jpg
+*.asv
