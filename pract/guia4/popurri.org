@@ -1,0 +1,24 @@
+* ej 1
+  se ajusta el dom [-2,2]
+  seleccionamos el \epsilon
+  introducimos la funcion uExac
+  
+  uExac = (sqrt(pi)*e/2) *(erf(1/e)-erf(3/e)-erf((x-1)/e)+erf((x+1)/e))
+
+  cambiamos el termino ind o vector fuente
+
+
+  s_f = (-2/(e^2))*((x-1)*(exp(-(((x-1)/e)^2)))-(x+1)*(exp(-(((x+1)/e)^2))))
+
+  una vez cargada la funcion fuente, debemos trabajarla ya que se encuentra en formata simbolico. Para poder manipular la funcion
+  como grafica debe ser formato numerico, para eso transformamos con el comando matlabFunction para transformar de simbolico a numerico
+  y nos quedara una funcion en funcion del intervalo, que la trabajamos con handle function @(x)
+
+* ej2
+
+  stiffcur_2D_1 tiene argumento de entrada a t,E,nu, por lo tanto hay que modificar el input para que lea los datos: la tension, el modulo
+  de young y el coef de poisson (nu).
+  Ademas nos hacemos un testcase para corroborar la rutina 2D
+  al input le agregamos
+
+  
