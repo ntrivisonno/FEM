@@ -2,7 +2,7 @@
 # *.*~ evita las copias de seg de emacs
 
 *.rar
-*.zip
+#*.zip
 *.tar
 
 # omitir carpetas

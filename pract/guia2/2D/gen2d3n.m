@@ -8,6 +8,8 @@ function [in,xx,iel,conec]=gen2d3n(lx,numx,ly,numy,file)
 %  numy:  Numero de elementos sobre lado Y
 %  file:  Nombre del archivo a generar
 %
+%   ojo -> no especifica los GDL del elemento. colocar 1:lineal 2: cuadrat
+%
    DX = lx/numx;
    DY = ly/numy;
    nodo=0;

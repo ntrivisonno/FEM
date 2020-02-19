@@ -12,9 +12,9 @@ m_DivProb = [4,8,16,32,64];
 %m_DivProb(1) = [];
 %
 %m_dom = [-1,1]; % dom seba cuad
-m_dom = [0,2]; % dom nico
+m_dom = [-2,2]; % dom nico
 %m_dom = [0,1];
-%ee = 10;
+%ee = 1;
 ee = 0.01;
 dxExac = 0.00001;
 %

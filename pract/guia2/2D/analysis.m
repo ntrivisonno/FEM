@@ -25,7 +25,7 @@ addpath 'Prg';
 %   1. Lectura de datos
 %
     if exist('file')  % le paso el txt de la malla
-        [in,xx,iel,conec,fixa,vfix,f,locel,ndn,eltype,inn,indof,inel] = input1(file);
+        [in,xx,iel,conec,fixa,vfix,f,locel,ndn,eltype,inn,indof,inel] = input1new(file);
     else
         display('   Defina el problema a correr ingresando el ');
         display('   nombre del archivo de datos en la variable ''file'' ');

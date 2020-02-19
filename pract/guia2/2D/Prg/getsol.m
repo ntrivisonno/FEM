@@ -22,7 +22,7 @@ function [u,S] = getsol (row,col,sk,fixa,vfix,f)
     S(fixa,:)    = zeros(length(fixa),size(S,1));
     S(fixa,fixa) = diag(ones(length(fixa),1));
 
-     u = (S\f)';
+    u = (S\f)';
 
 
 return

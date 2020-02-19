@@ -20,7 +20,7 @@ function [in,xx,iel,conec,fixa,vfix,f,locel,ndn,eltype,inn,indof,inel] = input1 
 %    fprintf('  Datos del análisis \n ================== \n \n')
 %    fprintf('  Lista de nodos y coordenadas\n \n')
 
-    numnp    = fscanf(fid,'%d',1); %sigue las filas pero las guarda en columnas 
+    numnp    = fscanf(fid,'%d',1); % sigue las filas pero las guarda en columnas 
     A = fscanf(fid,'%f',[4,numnp]); % triquinuela que hace xq matlab ingresa x fila pero lee por col
     in = A(1,:)'; % te toma todo los numeros de nodos
     xx = A(2:4,:)'; % son las coordenadas  de los nodos
@@ -28,12 +28,12 @@ function [in,xx,iel,conec,fixa,vfix,f,locel,ndn,eltype,inn,indof,inel] = input1 
 
 %    fprintf('  Lista de elementos y conectividades\n \n');
 
-    numel  = fscanf(fid,'%f',1);
-    eltype = fscanf(fid,'%f',1);
+    numel  = fscanf(fid,'%f',1); % numel: numero de elemento 
+    eltype = fscanf(fid,'%f',1); % eltype: Tipo de elemento
     if     (eltype==1) 
        ndn = 1; npe = 3; % ndn = cant GDL/nodo npe=# de nodos/elem
     elseif (eltype==2)         
-       ndn = 2; npe = 3; % npe = # nodos/elem | ndn = GDL/nodo
+       ndn = 2; npe = 3; 
     elseif (eltype==3)
        ndn = 2;	npe = 4;
     elseif (eltype==4)
@@ -78,7 +78,6 @@ function [in,xx,iel,conec,fixa,vfix,f,locel,ndn,eltype,inn,indof,inel] = input1 
         j       = iel(i);
         inel(j) = i;
     end
-
    
     %    fprintf('  Lista de nodos fijos\n \n');  % si es una carga puntual se puede poner como un nodo fijo como su valor
     
