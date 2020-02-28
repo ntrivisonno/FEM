@@ -85,31 +85,29 @@ function [in,xx,iel,conec,fixa,vfix,f,locel,ndn,eltype,inn,indof,inel] = input1 
 % seguir para ver como leemos las condiciones del ejemplo testcae
 % ----------
 
-    nfix  = fscanf(fid,'%f',1);
-    A     = fscanf(fid,'%f',[3,nfix]); % lee tres colum no mas, como haces para decirle q es en dir x
+    nfix  = fscanf(fid,'%f',1); % nfix: lista de nodos fijos, cond Dirch
+    A     = fscanf(fid,'%f',[4,nfix]); % lee tres colum no mas, como haces para decirle q es en dir x
     % o en y ???
-    fixa  = indof((A(1,:)'-1)*ndn + A(2,:)'); % son los nodos donde tengo carga dirch
-    vfix  = A(3,:); % vector de nodos de carga de los nodos ant
-
+   fixa = [(indof((A(1,:)'-1)*ndn + A(2,:)'))-1;indof((A(1,:)'-1)*ndn + A(2,:)')];  % GDL problem elast 2D
+     vfix = [A(4,:) A(3,:)];  % valores de GDL fijos problem elast 2D
     %    fprintf('  Lista de cargas nodales\n \n');
     
+    
+    %imponemos las fuerzas como desplazamientos, y nos omitimos este paso
     f     = zeros(numnp*ndn,1);
     nload = fscanf(fid,'%f',1);
     A     = fscanf(fid,'%f',[3,nload]);
     f(indof((A(1,:)'-1)*ndn+A(2,:)')) = A(3,:)';
 
-    %    fprintf('  Lectura de espesor \n \n');
-    
-    t = fscanf(fid,'%f',1);
-   
-    %    fprintf('  Lectura de Modulo de Young \n \n');
-    
-    E = fscanf(fid,'%f',1);
-   
-    %    fprintf('  Lectura de coef poisson \n \n');
-    
-    nu = fscanf(fid,'%f',1);
-   
+%     %    fprintf('  Lectura de espesor \n \n');
+%     t = fscanf(fid,'%f',1);
+%    
+%     %    fprintf('  Lectura de Modulo de Young \n \n');
+%     E = fscanf(fid,'%f',1);
+%    
+%     %    fprintf('  Lectura de coef poisson \n \n');
+%     nu = fscanf(fid,'%f',1);
+%    
 
     return
 

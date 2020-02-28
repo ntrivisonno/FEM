@@ -35,13 +35,14 @@ end
 %   2. Calculo de la matriz de rigidez
 %
 if     eltype==1,    %  elemento triangulo lineal conduccion calor
-    [row,col,sk] = stiffcur(in,xx,iel,conec,locel,inn,indof,inel);
+  [row,col,sk] = stiffcur(in,xx,iel,conec,locel,inn,indof,inel);
 elseif     eltype==2,
-    [row,col,sk] = stiffcurElast2D_1 (xx,iel,conec,locel,inn,indof,t,E,nu);
+  [row,col,sk] = stiffcurElast2D_1 (xx,iel,conec,locel,inn,indof,1.3,10000,0.3);
+%    [row,col,sk] = stiffcurElast2D_1 (xx,iel,conec,locel,inn,indof,t,E,nu);
 end
 
 %
 %   3. Imposicion de condiciones de borde Dirichlet y solucion
 %
-u = getsol(row,col,sk,fixa,vfix,f);
+u = getsol(row,col,sk,fixa,vfix,f); % getsol p elast
     

@@ -16,7 +16,7 @@ m_DivProb =  [6,12,24,48,96,192];
 m_dom = [-2,2]; % dom nico
 %m_dom = [0,1];
 %ee = 1;
-ee = 0.01;
+ee = 0.001;
 dxExac = 0.00001;
 %
 grPol = 1;

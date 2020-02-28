@@ -64,4 +64,4 @@ for ele = 1:nel
     end
 end
 
-S=sparse(row,col,sk);
+%S=sparse(row,col,sk);
