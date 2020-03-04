@@ -32,9 +32,9 @@ function [in,xx,iel,conec,fixa,vfix,f,locel,ndn,eltype,inn,indof,inel] = input1 
     eltype = fscanf(fid,'%f',1);
     if     (eltype==1) 
        ndn = 1; npe = 3;
-    elseif (eltype==2)         
+    elseif (eltype==2)  % triangulo con 2 GDL/nodo     
        ndn = 2; npe = 3;
-    elseif (eltype==3)
+    elseif (eltype==3)  % cuadrangulo lineal
        ndn = 2;	npe = 4;
     elseif (eltype==4)
        ndn = 2;	npe = 4;
@@ -89,14 +89,14 @@ function [in,xx,iel,conec,fixa,vfix,f,locel,ndn,eltype,inn,indof,inel] = input1 
     A     = fscanf(fid,'%f',[4,nfix]); % lee tres colum no mas, como haces para decirle q es en dir x
     % o en y ???
    fixa = [(indof((A(1,:)'-1)*ndn + A(2,:)'))-1;indof((A(1,:)'-1)*ndn + A(2,:)')];  % GDL problem elast 2D
-   vfix = [A(3,:) A(4,:)];  % valores de GDL fijos problem elast 2D
+   vfix = [A(4,:) A(3,:)];  % valores de GDL fijos problem elast 2D
     %    fprintf('  Lista de cargas nodales\n \n');
     
     % imponemos cargas nodales
      f     = zeros(numnp*ndn,1);
      nload = fscanf(fid,'%f',1); % # de nodos donde se aplica la carga
      A     = fscanf(fid,'%f',[4,nload]);
-     f([(indof((A(1,:)'-1)*ndn + A(2,:)'))-1;indof((A(1,:)'-1)*ndn + A(2,:)')])=[A(3,:) A(4,:)]; % esto va directo al getsol, es x eso q no nocesitamos hacer algo similar a vfix y fixa
+     f([(indof((A(1,:)'-1)*ndn + A(2,:)'))-1;indof((A(1,:)'-1)*ndn + A(2,:)')])=[A(4,:) A(3,:)]; % esto va directo al getsol, es x eso q no nocesitamos hacer algo similar a vfix y fixa
 
 %     %    fprintf('  Lectura de espesor \n \n');
 %     t = fscanf(fid,'%f',1);

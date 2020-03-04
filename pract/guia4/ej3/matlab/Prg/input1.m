@@ -32,9 +32,9 @@ function [in,xx,iel,conec,fixa,vfix,f,locel,ndn,eltype,inn,indof,inel] = input1 
     eltype = fscanf(fid,'%f',1);
     if     (eltype==1) 
        ndn = 1; npe = 3;
-    elseif (eltype==2)         
+    elseif (eltype==2)  % triangulo con 2 GDL/nodo     
        ndn = 2; npe = 3;
-    elseif (eltype==3)
+    elseif (eltype==3)  % cuadrangulo lineal
        ndn = 2;	npe = 4;
     elseif (eltype==4)
        ndn = 2;	npe = 4;

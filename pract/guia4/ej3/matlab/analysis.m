@@ -20,8 +20,9 @@
 %                 organizada en forma sparse (fila,columna,termino)
 %   u:     vector solucion
 %
-file = 'malla_ej2_v2.txt';
-addpath 'Prg';
+addpath 'Prg' 'mallas';
+file = 'malla_ej3a_216GDL.txt';
+
 %
 %   1. Lectura de datos
 %
@@ -38,7 +39,7 @@ end
 if     eltype==1,    %  elemento triangulo lineal conduccion calor
   [row,col,sk] = stiffcur(in,xx,iel,conec,locel,inn,indof,inel);
 elseif     eltype==2,
-  [row,col,sk] = stiffcurElast2D_1 (xx,iel,conec,locel,inn,indof,0,10000,0.3);
+  [row,col,sk] = stiffcurElast2D_1 (xx,iel,conec,locel,inn,indof,1,10000,0.3);
 %    [row,col,sk] = stiffcurElast2D_1 (xx,iel,conec,locel,inn,indof,t,E,nu);
 end
 

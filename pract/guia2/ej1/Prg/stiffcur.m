@@ -39,8 +39,8 @@ for ele = 1:nel % nel = length (iel) | iel = # de elem
                 (X1(1)*Y1(2) - X1(2)*Y1(1)) ;
 
     for i=1:3 % aca sire el vector ind
-        beta(i)  =   (Y1( ind(i+1) ) - Y1( ind(i+2) ))/dosdelta;
-        gamma(i) =  -(X1( ind(i+1) ) - X1( ind(i+2) ))/dosdelta;
+        beta(i)  =   (Y1( ind(i+1) ) - Y1( ind(i+2) ))/dosdelta;% aca poner sqrt(kxx)
+        gamma(i) =  -(X1( ind(i+1) ) - X1( ind(i+2) ))/dosdelta;% aca poner sqrt(kyy)
     end
 
     for i = 1:3 %np
