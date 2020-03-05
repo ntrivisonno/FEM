@@ -1,0 +1,132 @@
+
+                     _U:U1 PI:
+                      GEOMETRI
+                     A_EJE2_GU
+                     IA_4_FEM-
+                  X   1 N: 21 
+
+           0.00E+000   0.00E+000
+           1.00E+001  -8.96E-005
+
+ TOTAL     1.00E+001  -8.96E-005
+
+
+
+                     _U:U1 PI:
+                      GEOMETRI
+                     A_EJE2_GU
+                     IA_4_FEM-
+                  X   1 N: 22 
+
+           0.00E+000   0.00E+000
+           1.00E+001  -3.02E-006
+
+ TOTAL     1.00E+001  -3.02E-006
+
+
+
+                     _U:U1 PI:
+                      GEOMETRI
+                     A_EJE2_GU
+                     IA_4_FEM-
+                  X   1 N: 23 
+
+           0.00E+000   0.00E+000
+           1.00E+001   2.41E-005
+
+ TOTAL     1.00E+001   2.41E-005
+
+
+
+                     _U:U1 PI:
+                      GEOMETRI
+                     A_EJE2_GU
+                     IA_4_FEM-
+                  X   1 N: 24 
+
+           0.00E+000   0.00E+000
+           1.00E+001   1.74E-005
+
+ TOTAL     1.00E+001   1.74E-005
+
+
+
+                     _U:U1 PI:
+                      GEOMETRI
+                     A_EJE2_GU
+                     IA_4_FEM-
+                  X   1 N: 25 
+
+           0.00E+000   0.00E+000
+           1.00E+001   1.52E-005
+
+ TOTAL     1.00E+001   1.52E-005
+
+
+
+                     _U:U2 PI:
+                      GEOMETRI
+                     A_EJE2_GU
+                     IA_4_FEM-
+                  X   1 N: 21 
+
+           0.00E+000   0.00E+000
+           1.00E+001  -3.23E-004
+
+ TOTAL     1.00E+001  -3.23E-004
+
+
+
+                     _U:U2 PI:
+                      GEOMETRI
+                     A_EJE2_GU
+                     IA_4_FEM-
+                  X   1 N: 22 
+
+           0.00E+000   0.00E+000
+           1.00E+001  -6.65E-004
+
+ TOTAL     1.00E+001  -6.65E-004
+
+
+
+                     _U:U2 PI:
+                      GEOMETRI
+                     A_EJE2_GU
+                     IA_4_FEM-
+                  X   1 N: 23 
+
+           0.00E+000   0.00E+000
+           1.00E+001  -8.57E-004
+
+ TOTAL     1.00E+001  -8.57E-004
+
+
+
+                     _U:U2 PI:
+                      GEOMETRI
+                     A_EJE2_GU
+                     IA_4_FEM-
+                  X   1 N: 24 
+
+           0.00E+000   0.00E+000
+           1.00E+001  -6.71E-004
+
+ TOTAL     1.00E+001  -6.71E-004
+
+
+
+                     _U:U2 PI:
+                      GEOMETRI
+                     A_EJE2_GU
+                     IA_4_FEM-
+                  X   1 N: 25 
+
+           0.00E+000   0.00E+000
+           1.00E+001  -3.10E-004
+
+ TOTAL     1.00E+001  -3.10E-004
+
+
+
+

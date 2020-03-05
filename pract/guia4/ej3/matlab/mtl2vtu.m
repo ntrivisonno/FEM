@@ -16,7 +16,13 @@ function mtl2vtu(FILE,NOD,ELE,SOL)
   %                   SOL(i).Value
   % If SOL is empty or does not exist, only the mesh is displayed.
   %
-	 
+  % modo de uso:
+  % SOL =
+  % struct('Name','U','Type','PointData','NumberOfComponents',2,'Value',u'),
+  % u debe ser vector colum
+  % mtl2vtu('pp.vtu',xx,struct('Connectivity',conec,'Type','TRI3'),SOL)
+  %	 
+
   FID = fopen(FILE,'w');
   fprintf(FID, '<?xml version="1.0"?>\n');
   fprintf(FID, '<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian">\n');
@@ -58,9 +64,9 @@ function mtl2vtu(FILE,NOD,ELE,SOL)
       etype = 28; %VTK_BIQUADRATIC_QUAD
     case {'QUAD16'}
       % etype = 36; %VTK_BICUBIC_QUAD
-      % No funciona. Paraview 3.12.0 no acepta cuadrángulos bi-cúbicos.
-      % Para visualización, cada cuadrángulo bi-cúbico es dividido en
-      % 9 cuadrángulos bi-lineales.
+      % No funciona. Paraview 3.12.0 no acepta cuadrï¿½ngulos bi-cï¿½bicos.
+      % Para visualizaciï¿½n, cada cuadrï¿½ngulo bi-cï¿½bico es dividido en
+      % 9 cuadrï¿½ngulos bi-lineales.
       etype = 9; % VTK_QUAD
       C = CONEC;
       CONEC = [C(:,[1 5 13 12])

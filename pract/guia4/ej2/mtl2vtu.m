@@ -16,7 +16,11 @@ function mtl2vtu(FILE,NOD,ELE,SOL)
   %                   SOL(i).Value
   % If SOL is empty or does not exist, only the mesh is displayed.
   %
-	 
+  % modo de uso:
+  % SOL = struct('Name','U','Type','PointData','NumberOfComponents',2,'Value',u)
+  % mtl2vtu('pp.vtu',xx,struct('Connectivity',conec,'Type','HEXA8'),SOL)
+  %	 
+
   FID = fopen(FILE,'w');
   fprintf(FID, '<?xml version="1.0"?>\n');
   fprintf(FID, '<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian">\n');
