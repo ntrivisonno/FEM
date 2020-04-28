@@ -1,4 +1,25 @@
-% calculo de funciones base para elem triangular cuad, apunte 3 - pg 15
+function [phi_all,phi_all_areas]=elem_triangular_cuad()
+% calculo de funciones base en coord cartesianas y de areas para elem triangular cuad, apunte 3 - pg 15
+% ------------------------------------------------
+% phi_all: funciones bases coord cartesianas del elemento triang cuad 
+% phi_all_areas: funciones bases coord areas del elemento triang cuad 
+% ------------------------------------------------
+%
+% ------------------------------------------------
+%    todo OK - lo unico phi_all_areas(1), no lo expresa como en el apunte, pero esta bien, abajo se aclara la igualdad
+% ------------------------------------------------
+%
+%  Elemento triangular cuadratico
+%        3-(0,h)
+%            |\
+% 6-(0,1/2)<.| \. -> 5-(1/2,1/2))     
+%            |_ \                   
+%   1-(0,0)  |.|_\ 2-(h,0)    
+%               '   
+%          4-(1/2,0)
+%               
+%
+% Imp -> el nodo 1 es el q contiene el 'angulo recto los dem'as los contamos antihorario
 % ------------------------------------------------
 % piramide de polinomio
 %           1
@@ -50,7 +71,7 @@ disp(phi_all)
 % ------------------------------------------------
 %    todo OK - verifica las funciones bases
 % ------------------------------------------------
-
+%
 % ------------------------------------------------
 %    FUNCIONES BASES en COORD de AREAS
 % ------------------------------------------------
@@ -60,14 +81,32 @@ disp(phi_all)
 %  lambda_2 = xi
 %  lambda_3 = eta
 syms lambda_1 lambda_2 lambda_3 xi eta
-  % la sustitucion se debe hacer en 2pasos xq sino no toma a lambda_1
+% la sustitucion se debe hacer en 2pasos xq sino no toma a lambda_1
 pp = subs(phi_all,{x,y},{lambda_2,lambda_3});
 pp = subs(pp,{1-xi-eta},{lambda_1});
-phi_all_area = factor(pp); % funciones bases coord areas
+pp_factor = factor(pp); % funciones bases coord areas
 disp(['funcion base en coord de areas'])
-func_areas = subs(phi_all_area,{1-lambda_2-lambda_3},{lambda_1})
+phi_all_areas = subs(pp_factor,{1-lambda_2-lambda_3},{lambda_1})
+
+% phi_1 = subs(phi_all_areas,{lambda_1,lambda_2,lambda_3},{1,0,0})
+% phi_2 = subs(phi_all_areas,{lambda_1,lambda_2,lambda_3},{0,1,0})
+% phi_4 = subs(phi_all_areas,{lambda_1,lambda_2,lambda_3},{1/2,1/2,0})
+% phi_5 = subs(phi_all_areas,{lambda_1,lambda_2,lambda_3},{0,1/2,1/2})
+% ------------------------------------------------
+%    todo OK - verifica las funciones bases
+% ------------------------------------------------
 % SSS esta ok, lo 'unico que SSS(1) se debe expresar mejor, es decir (octave no lo hace)
 % SSS(1) = lambda_1 * (2 * lambda_1 - 1)
+%
+% igualdad de phi_all_areas(1) y el apunte
+% apunte -> lambda_1 * (2 * lambda_1 - 1)
+% prog:
+% = lambda_1*(2*lambda_2+2*lambda_3-1) 
+% = 2 lambda_1*(-lambda_2-lambda_3+(1/2))
+% = 2 lambda_1*( [-lambda_2-lambda_3+1] - (1/2))
+% vemos que lo q esta entre [] es lambda_1
+% = 2 lambda_1*(lambda_1 - (1/2))
+% = lambda_1*(2*lambda_1-1) ---> VERIFICA !!
 
 
 toc
