@@ -1,7 +1,7 @@
 %%
 clear all;clc
 close all
-tic
+tStart = tic;
 %Datos
 %m_DivProb = [4,8,16,32,64];
 m_DivProb =  [6,12,24,48,96,192];
@@ -26,11 +26,10 @@ saveArch = false;
 s_NomArchVar = ['VarG1P3Epsi',strrep(num2str(ee),'.','_')];
 
 syms x e real
-uExac = (sqrt(pi)*e/2) *(erf(1/e)-erf(3/e)-erf((x-1)/e)+erf((x+1)/e)); 
+uExac = (sqrt(pi)*e/2) *(erf(1/e)-erf(3/e)-erf((x-1)/e)+erf((x+1)/e))
 %uExac = sin(pi*x)/pi^2;
 duExac = diff(uExac,x);
 s_f = (-2/(e^2))*((x-1)*(exp(-(((x-1)/e)^2)))-(x+1)*(exp(-(((x+1)/e)^2))));
-
 
 %Reemplazo de e
 uExac = subs(uExac,e,ee);
@@ -224,6 +223,6 @@ end
 % calcerror (x4, u4, x8, u8, x16, u16, x32, u32, x64, u64, xexac, m_uExac,m_duExac)
 % axis equal
 
-
-
-toc
+time = toc(tStart);
+fprintf('*-----------------------------------------------*\n')
+fprintf('\n\nFIN! - OK - time = %d[s].\n',time)

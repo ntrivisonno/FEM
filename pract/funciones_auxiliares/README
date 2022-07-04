@@ -1,0 +1,7 @@
+% Cargar el siguiente path para poder usar las funciones de esta carpeta
+
+addpath('~/Documents/CIMEC/Cursos/FEM/pract/funciones_auxiliares/')
+
+% al finalizar el prog, previo haber activado - tic
+time = toc
+fprintf('\n*************************************\nFIN! - prog OK - time = %d[s]\n',time)

@@ -21,7 +21,7 @@ function [Ag,bg] = ensamble_global (Ae,be,n,GDL_n)
     elseif i == n %(2*n-1)
       Ag(end-1:end,end-1:end) += Ae(1:2,1:2);
     else
-      j = 2*i-2;
+      j = 2*i-2; % creo q aca va 2
       Ag(j:j+2,j:j+2) += Ae(:,:);  
       %Ag(i:i+2,i:i+2) += Ae(:,:);  
       %j += 2;
@@ -29,21 +29,19 @@ function [Ag,bg] = ensamble_global (Ae,be,n,GDL_n)
   endfor
 
   for i = 1:n 
-    disp('inicia for')
-    i
     % ensamble vector carga global
     if i == 1 
-      bg(1:2) += be(2:end)
+      bg(1:2) += be(2:end);
     elseif i == n %(2*n-1)
-     bg(end-1:end) += be(1:2)
+     bg(end-1:end) += be(1:2);
     else
-      disp('cond else')
-      i:i+2
-      bg(i:i+2) += be(:)  
-      i += 2
-    endif
+      %disp('cond else')
+      %i:i+2
+      bg(i:i+2) += be(:);
+      i += 2;
+    end
     
-  endfor
+  end
 
 
 end

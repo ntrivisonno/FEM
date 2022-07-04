@@ -48,3 +48,6 @@ end
 %
 u = getsol(row,col,sk,fixa,vfix,f); % getsol p elast
     
+figure()% plot deformada
+a=10;pp=a*reshape(u',2,[])'+xx(:,1:2);close all;pltmsh3(in,pp,iel,conec);;title('Deformada');
+print -dpng Figures/deformada.png

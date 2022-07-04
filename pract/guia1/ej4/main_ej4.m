@@ -1,7 +1,7 @@
 clear all;clc;
 %========================================================%
-%                   TRIVISONNO, Nicolás                  %
-%                        11/dic/19                       %
+%                   TRIVISONNO, Nicolas                  %
+%                        03/nov/19                       %
 %                    Guia N 01 - Ej 4                    %
 %========================================================%
 %  Enunciado
@@ -10,6 +10,11 @@ clear all;clc;
 %            u(-1) = u(1) = 0
 % Elementos finitos cuadraticos
 %%
+tic
+%
+% carga de variables
+h = 1; % long del intervalo
+
 % funcion fuente
 f=1;
 if 0
@@ -20,27 +25,31 @@ if 0
   f = @(x) x.^3 + 2*x - 3 
 end
 
-if 0 % manipulacion sumbolica ON-OFF
-  [Ae,be] = MEF_cuadratic(f);
-  disp('La  matrix elemental es') 
-  pretty(Ae)
-  disp('El termino independiente es') 
-  pretty(be)
-end
-
-if 1 % directamente resultado symbolic
-  % resutlado symbolic de matriz elemental 
-  Ae = [7/6 -4/3 1/6;-4/3 8/3 -4/3;1/6 -4/3 7/6]
-  be = [1; 2; 3];
-  n = 5; % cantidad de elem
-  GDL_nodal = 1
-  [Ag,bg] = ensamble_global (Ae,be,n,GDL_nodal)
-end
+%
+% matriz elem symbolic
+[Ae_s,be_s] = MEF_cuadratic(f);
+fprintf('La  matrix elemental es:\n%s\n',char(pretty(Ae_s)))
+fprintf('El termino independiente es:\n%s\n',char(pretty(be_s)))
 
 %
-%
-%  continuar con la prog del ensamble global
-%  parece que se arregl'o
-%
-%
+% corversion - symbolic2numeric
+Ae_h = matlabFunction(Ae_s); % symbolic2handle
+Ae_n = Ae_h(h); % handle2numeric
+be_h = matlabFunction(be_s); % symbolic2handle
+be_n = be_h(h); % handle2numeric
 
+%
+% ensamble global
+n = 5; % cantidad de elem
+GDL_nodal = 1;
+[Ag,bg] = ensamble_global (Ae_n,be_n,n,GDL_nodal);
+
+%
+% solucion
+x = Ag/bg';
+disp('La solucion es:')
+disp(x)
+
+time = toc;
+fprintf('*-----------------------------------------------*\n')
+fprintf('\n\nFIN! - prog OK - time = %d[s]\n',time)

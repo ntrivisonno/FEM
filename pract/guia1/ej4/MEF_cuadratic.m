@@ -1,9 +1,9 @@
 function [A,b] = MEF_cuadratic(f)
-  % MEF_cuadratic -> calculo de la matrix elemental mediante manipulacion simbolica
+  % MEF_cuadratic -> calculo de la matrix elemental de un elemento cuadratico mediante manipulacion simbolica
   %---------------------------
-  % A -> matrix elemental
-  % b -> term. fuente elem
-  % f -> puntero a funcion dentro del termino indep
+  % A -> matrix elemental  - class: symbolic
+  % b -> term. fuente elem - class: symbolic
+  % f -> puntero a funcion dentro del termino indep, funcionHandle var ind 'x'
 
   % calculamos los polinomios
   syms x1 x2 x3 % ptos del elemento Ij-ésimo
@@ -78,23 +78,3 @@ function [A,b] = MEF_cuadratic(f)
 
   b = [b1;b2;b3];
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

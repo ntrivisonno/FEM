@@ -24,7 +24,7 @@ for i=1:270
 end
 
 if 1
-   close all;
+  close all;
   plot(mesh_GDL,R_t_l_mf,'b-^');xlim([0 270]);ylim([80 120]);
   hold on;plot(mesh_GDL,R_t_l_onate,'^-g^');
   plot(x,exact);

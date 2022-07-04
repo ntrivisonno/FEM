@@ -1,5 +1,9 @@
 * ej 1
+  es un ejercicio similar al ej3 de la guia01, con la dif que se modifica el dominio y ademas el termino fuente
   se ajusta el dom [-2,2]
+  hay que correr solo el main.m
+  Sobre el mismo, hay 2 \epsilon distintos a elegir, los cuales ee = 0.001 cuya soluci\'on es un escalon cuadradado y para ee = 1 la
+  solucion se parece a una onda sinusoidal
   seleccionamos el \epsilon
   introducimos la funcion uExac
   
@@ -7,10 +11,9 @@
 
   cambiamos el termino ind o vector fuente
 
-
   s_f = (-2/(e^2))*((x-1)*(exp(-(((x-1)/e)^2)))-(x+1)*(exp(-(((x+1)/e)^2))))
 
-  una vez cargada la funcion fuente, debemos trabajarla ya que se encuentra en formata simbolico. Para poder manipular la funcion
+  una vez cargada la funcion fuente, debemos trabajarla ya que se encuentra en formato simbolico. Para poder manipular la funcion
   como grafica debe ser formato numerico, para eso transformamos con el comando matlabFunction para transformar de simbolico a numerico
   y nos quedara una funcion en funcion del intervalo, que la trabajamos con handle function @(x)
 

@@ -20,13 +20,15 @@
 %                 organizada en forma sparse (fila,columna,termino)
 %   u:     vector solucion
 %
-file = 'malla_ej2_v2.txt';
+
+file = 'file_mallaEj2_final.txt'
 addpath 'Prg';
+addpath('~/Documents/CIMEC/Cursos/FEM/pract/funciones_auxiliares/');
 %
 %   1. Lectura de datos
 %
 if exist('file')
-    [in,xx,iel,conec,fixa,vfix,f,locel,ndn,eltype,inn,indof,inel] = input1(file);
+    [in,xx,iel,conec,fixa,vfix,f,locel,ndn,eltype,inn,indof,inel] = input_plane_elasticity(file);
 else
     display('   Defina el problema a correr ingresando el ');
     display('   nombre del archivo de datos en la variable ''file'' ');
@@ -35,9 +37,9 @@ end
 %
 %   2. Calculo de la matriz de rigidez
 %
-if     eltype==1,    %  elemento triangulo lineal conduccion calor
+if     eltype == 1,    %  elemento triangulo lineal conduccion calor
   [row,col,sk] = stiffcur(in,xx,iel,conec,locel,inn,indof,inel);
-elseif     eltype==2,
+elseif     eltype == 2,
   [row,col,sk] = stiffcurElast2D_1 (xx,iel,conec,locel,inn,indof,0,10000,0.3);
 %    [row,col,sk] = stiffcurElast2D_1 (xx,iel,conec,locel,inn,indof,t,E,nu);
 end
@@ -45,5 +47,9 @@ end
 %
 %   3. Imposicion de condiciones de borde Dirichlet y solucion
 %
+
 u = getsol(row,col,sk,fixa,vfix,f); % getsol p elast
-    
+
+figure()% plot deformada
+a=500;pp=a*reshape(u',2,[])'+xx(:,1:2);close all;pltmsh3(in,pp,iel,conec);title('Deformada');
+%print -dpng Figures/deformada.png

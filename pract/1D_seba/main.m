@@ -11,8 +11,8 @@ m_DivProb = [4,8,16,32,64];
 %m_DivProb = primes(200);
 %m_DivProb(1) = [];
 %
-%m_dom = [-1,1]; % dom seba cuad
-m_dom = [-2,2]; % dom nico
+m_dom = [-1,1]; % dom seba cuad
+%m_dom = [-2,2]; % dom nico
 %m_dom = [0,1];
 %ee = 1;
 ee = 0.01;
@@ -32,8 +32,8 @@ s_f = exp(-x*x/e/e);
 %s_f = sin(pi*x);
 
 %Reemplazo de e
-uExac = subs(uExac,e,ee);
-duExac = subs(duExac,e,ee);
+uExac = subs(uExac,e,ee); % reemplazo e por el valor de epsilon
+duExac = subs(duExac,e,ee); % idem anterior
 s_f = subs(s_f,e,ee);
 
 %Valores de la soluci�n exacta
@@ -103,12 +103,13 @@ for iPr = 1:nProb
       plot(m_ResPr(:,1),m_ResPr(:,2))
    end
 end
-plot(xexac,m_uExac,'k')
+plot(xexac,m_uExac,'k') %figure();xlim([-.03 0.03]);print -dpng Figs/solu_zoom.png
 hold off
 ylabel ('u(x)');
 xlabel ('x');
 grid on
-legend(s_NroElem)
+title('Solucion EDO')
+legend(s_NroElem,'uExac')
 
 figure(2)
 hold on

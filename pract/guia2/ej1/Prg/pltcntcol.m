@@ -63,6 +63,7 @@ function pltcntcol (in,xx,iel,eltype,conec,u,curv)
     set(get(gca,'xlab'),'Fontsize',sizeFontB)
     set(get(gca,'ylab'),'Fontsize',sizeFontB)
     set(get(gca,'zlab'),'Fontsize',sizeFontB)
+    %colormap jet
 % toc
 
 

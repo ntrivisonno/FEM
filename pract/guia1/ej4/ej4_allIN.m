@@ -8,8 +8,10 @@ clear all;close all;clc;
 % n = cantidad de elementos
 % Resolucion   -u" = f(x),  -1 <= x <= 1
 %            u(-1) = u(1) = 0
-% Elementos finitos cuadraticos
+% Elementos finitos cuadr'aticos
+% Detalles del prog, apendice Gu'ia N01
 %%
+tic
 % calculamos los polinomios
 syms x1 x2 x3 % ptos del elemento Ij-ésimo
 syms aj bj cj aj1 bj1 cj1 aj2 bj2 cj2 % coef. del polinomio
@@ -61,9 +63,9 @@ phi3 = simplify(phi3);
 % h=x_i-x_i-1 (dist entre nodos) ==> tamaño del elem= 2h
 syms h 
 
-phi1 = subs(subs(subs(phi1,x1,0),x2,h),x3,2*h);     % phi1
-phi2 = subs(subs(subs(phi2,x1,0),x2,h),x3,2*h);     % phi2
-phi3 = subs(subs(subs(phi3,x1,0),x2,h),x3,2*h);     % phi3
+phi1 = subs(phi1,{x1,x2,x3},{0,h,2*h});     % phi1
+phi2 = subs(phi2,{x1,x2,x3},{0,h,2*h});     % phi2
+phi3 = subs(phi3,{x1,x2,x3},{0,h,2*h});     % phi3
 
 % derivamos las funciones
 d_phi1 = diff(phi1,x);    %d_phi1
@@ -94,7 +96,6 @@ b1 = int(phi1*f,0,2*h);
 b2 = int(phi2*f,0,2*h);
 b3 = int(phi3*f,0,2*h);
 
-
 be_sym = [b1;b2;b3];
 disp('El termino ind elemental') 
 pretty(be_sym)
@@ -104,25 +105,12 @@ Ae = matlabFunction(Ae_sym);
 be = matlabFunction(be_sym);
 
 N = 4; % cant de elementos
-dx = (l(2)-l(1))/N;
+dx = (l(2)-l(1))/N; % distancia elemental
+dx = dx/3; % distancia entre nodos para evaluar la matriz elem
 fprintf('\n Evaluamos la matriz elem en dx = %d para una cant de %d elementos \n \n',dx,N)
-pp = Ae(dx)
-be = be(dx)
+Ae_num = Ae(dx)
+be_num = be(dx)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+time = toc;
+fprintf('*-----------------------------------------------*\n')
+fprintf('\n\nFIN! prog OK - time: %d[s]\n',toc)

@@ -1,0 +1,57 @@
+$Numeros de Nodos
+     6 
+$Lista de Nodos y sus coordenadas
+     1     0.000000      0.000000     0.000000 
+     2     1.500000      0.000000     0.000000 
+     3     3.000000      0.000000     0.000000 
+     4     0.000000      1.000000     0.000000 
+     5     1.500000      1.000000     0.000000 
+     6     3.000000      1.000000     0.000000 
+$Numero de elementos (conectividades) y tipo de elemento, 1=Lineal, 2=Cuadratico...
+     4     1
+$Conectividades por elemento  Elemento/Nodos a b c /Tipo de Material
+     1     1      2     4   1
+     2     2      5     4   1
+     3     2      3     5   1
+     4     3      6     5   1
+$Cantidad de MAteriales / Cantidad de variables de concuctancia Kx-Ky
+     2     2
+$Tipo de Material / Kx  /   ky
+     1              1       1
+     2              1       1
+$Cantidad de Nodos con Condicion Dirchlet
+     2
+$Nodo/Grados de Libertad/CB
+     3     1      0.0
+     6     1      0.0
+$LISTA DE CARGAS NODALES  
+     0
+$Numero de Nodos Frontera
+   6 
+$Matriz de Nodos Frontera (Coordenadas)
+     1     0.000000      0.000000     0.000000 
+     2     1.500000      0.000000     0.000000 
+     3     3.000000      0.000000     0.000000 
+     4     0.000000      1.000000     0.000000 
+     5     1.500000      1.000000     0.000000 
+     6     3.000000      1.000000     0.000000 
+$Elementos Forntera   
+  6
+ $Matriz de Elementos Frontera (Conectividades)
+$Elemento/ Nodo a b/ Tipo de CB   0=CB.Dirichlet  1=CB.Robin  2=CB.Neumann
+    1 1 2 0 
+    2 2 3 0 
+    3 3 6 0
+    4 1 4 1
+    5 4 5 0
+    6 5 6 0
+$ h para la CB.Robin
+    10
+$ Temperatura de referencia CB.Robin
+    10
+$Cantidad de Nodos con CB.Neumann
+    0
+
+    
+   
+ 

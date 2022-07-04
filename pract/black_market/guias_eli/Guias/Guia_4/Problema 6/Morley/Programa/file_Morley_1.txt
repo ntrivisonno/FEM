@@ -1,0 +1,82 @@
+$Numeros de Nodos
+25
+$Lista de Nodos y sus coordenadas
+1	0.	0.	0
+2	5.	0.	0
+3	10.	0.	0
+4	0.	5.	0
+5	5.	5.	0
+6	10.	5.	0
+7	0.	10.	0
+8	5.	10.	0
+9	10.	10.	0
+10	2.5	0.	0
+11	5.	2.5	0
+12	2.5	2.5	0
+13	2.5	5.	0
+14	0.	2.5	0
+15	7.5	0.	0
+16	10.	2.5	0
+17	7.5	2.5	0
+18	7.5	5.	0
+19	5.	7.5	0
+20	2.5	7.5	0
+21	2.5	10.	0
+22	0.	7.5	0
+23	10.	7.5	0
+24	7.5	7.5	0
+25	7.5	10.	0
+    
+$Numero de elementos (conectividades) y tipo de elemento, 1=Lineal una direccion, 2=Lineal dos direcciones...  6=Stoke  7=Morley
+    8  7
+$Conectividades por elemento  Elemento/Nodos Vertice a b c /Nodos Intermedios r s t
+1  	1	  2	  5	 10	 11	 12
+2	5  	  4  	  1	 13	 14	 12
+3  	2  	  3	  6	 15	 16	 17
+4	6	  5	  2	 18	 11	 17
+5  	4	  5	  8	 13	 19	 20
+6	8  	  7	  4	 21	 22	 20
+7  	5	  6	  9	 18	 23	 24
+8  	9	  8	  5	 25	 19	 24
+$Nodos Vertices con CB Dirichlet
+16
+$Nodo/Grado de Libertad  1=Desplazamiento 2=ux' 3=uy'  0=Nada
+1	1	0
+2	1	0
+3	1	0
+4	1	0
+6	1	0
+7	1	0
+8	1	0
+9	1	0
+10	1	0
+15	1	0
+14	1	0
+16	1	0
+22	1	0
+23	1	0
+21	1	0
+25	1	0
+$Cantidad de Nodos Con Cargas Nodales
+    9
+$Nodo Nodo/Grados de Libertad  /Fy
+    1	1	111.1
+    2	1	111.1
+    3	1	111.1
+    4   1	111.1
+    5   1	111.1
+    6   1	111.1
+    7   1	111.1
+    8   1	111.1
+    9   1	111.1
+ $Espesor de Placa
+   1
+$Modulo de Elasticidad de la PLaca
+   10000
+$Coeficiente de Poisson
+   0.3
+
+
+$nNod = sqrt(size(xx,1));surf(reshape(xx(:,1),nNod,nNod),reshape(xx(:,2),nNod,nNod),reshape(u(1:ndn:end),nNod,nNod))
+
+$surf(reshape(xx(1:9,1),nNod,nNod),reshape(xx(1:9,2),nNod,nNod),reshape(u(1:9),nNod,nNod))    nNod=3

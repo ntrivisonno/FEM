@@ -3,7 +3,7 @@ function [in,xx,iel,conec,fixa,vfix,f,locel,ndn,eltype,inn,indof,inel] = input1 
 % 
 %  Lectura, generación e impresión de datos nodales
 %
-%  in:     Números de nodo
+%  in:     Números de nodo (Vector de nodos)
 %  xx:     Tabla de coordenadas
 %  iel:    Números de elemento
 %  conec:  Tabla de conectividades
@@ -33,7 +33,7 @@ function [in,xx,iel,conec,fixa,vfix,f,locel,ndn,eltype,inn,indof,inel] = input1 
     if     (eltype==1) 
        ndn = 1; npe = 3; % ndn = cant GDL/nodo npe=# de nodos/elem
     elseif (eltype==2)         
-       ndn = 2; npe = 3; 
+       ndn = 2; npe = 3;
     elseif (eltype==3)
        ndn = 2;	npe = 4;
     elseif (eltype==4)

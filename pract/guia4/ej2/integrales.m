@@ -44,7 +44,8 @@ if 0
 end
 
 if 1
-
+  clear all; clc; close all
+  tStart = tic;
   %ejemplo malla_ej2_v2.txt
   a = -4.4444
   b =  13.333
@@ -55,17 +56,23 @@ if 1
   
   syms x 
   
-  l0 = 0
-  l1 = 3
+  l0 = 0;
+  l1 = 3;
   
   n  = 4 %cant de elem
   dx = (l1-l0)/(n*2);
   n_nod = (l1-l0)/dx;
-  x0 = l0
+  x0 = l0;
   for i=1:n_nod
-    xf = x0 + dx 
-    Area(i) = int(q,x,x0,xf)
+    xf = x0 + dx;
+    Area(i) = int(q,x,x0,xf);
     x0 = xf;
   end
+
+  fprintf('El resultado de la integral Area:,\n%s \n', char(pretty(Area)))%escribimos simbolic
+
+  time = toc(tStart);
+  fprintf('*-----------------------------------------------*\n')
+  fprintf('\n\nFIN! - OK - time = %d[s].\n',time)
 
 end

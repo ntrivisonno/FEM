@@ -1,4 +1,4 @@
-% 
+%
 %   Archivo script : secuencia de llamados para resolucion
 %                    de un problema de elementos finitos
 %
@@ -20,25 +20,32 @@
 %                 organizada en forma sparse (fila,columna,termino)
 %   u:     vector solucion
 %
-addpath 'Prg';
+clear all;close all;clc;tStart = tic;
+file = 'malla_15x12.txt'
+
+addpath 'Prg';addpath 'mallas';
+addpath '~/Documents/CIMEC/Cursos/FEM/pract/guia2/ej5/mallas';
 %
 %   1. Lectura de datos
 %
-    if exist('file')  % le paso el txt de la malla
-        [in,xx,iel,conec,fixa,vfix,f,locel,ndn,eltype,inn,indof,inel] = input1(file);
-    else
-        display('   Defina el problema a correr ingresando el ');
-        display('   nombre del archivo de datos en la variable ''file'' ');
-        return
-    end
+if exist(file)
+  [in,xx,iel,conec,fixa,vfix,locel,ndn,eltype,f,inn,indof,inel,Vect_Mat,Kt,Elem_Neumann,Elem_Robin,Mat_Nod_Neu,h_rob,t_ref,Num_Nod_Neu] = input1_new(file);
+else
+  display('   Defina el problema a correr ingresando el ');
+  display('   nombre del archivo de datos en la variable ''file'' ');
+  return
+end
 %
 %   2. Calculo de la matriz de rigidez
 %
-    if     eltype==1,    %  elemento triangulo lineal conduccion calor
-       [row,col,sk] = stiffcur(in,xx,iel,conec,locel,inn,indof,inel);
-    end
+if     eltype==1,    %  elemento triangulo lineal conduccion calor
+  [row,col,sk,MR_s,qrob,qneu_s] = stiffcur(in,xx,iel,conec,locel,inn,indof,inel,Vect_Mat,Kt,Elem_Neumann,Elem_Robin,Mat_Nod_Neu,h_rob,t_ref,Num_Nod_Neu);
+end
 %
 %   3. Imposicion de condiciones de borde Dirichlet y solucion
 %
-    [u,S] = getsol(row,col,sk,fixa,vfix,f);
-    
+u = getsol(row,col,sk,fixa,vfix,f,MR_s,qrob,qneu_s);
+
+time = toc(tStart);
+fprintf('*-----------------------------------------------*\n')
+fprintf('\n\nFIN! - OK - time = %d[s].\n',time)

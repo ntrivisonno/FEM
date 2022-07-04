@@ -1,6 +1,6 @@
 function [in,xx,iel,conec]=gen2d3n(lx,numx,ly,numy,file)
 %  function [in,xx,iel,conec]=gen2d3n(lx,numx,ly,numy,file)
-%  genera una malla rectangular 2d de triangulos !!!! 2D 3 nodos
+%  genera una malla rectangular 2d de triangulos
 %
 %  lx:    Longitud rectangulo en X
 %  numx:  Numero de elementos sobre lado X
@@ -8,8 +8,7 @@ function [in,xx,iel,conec]=gen2d3n(lx,numx,ly,numy,file)
 %  numy:  Numero de elementos sobre lado Y
 %  file:  Nombre del archivo a generar
 %
-%   ojo -> no especifica los GDL del elemento. colocar 1:lineal 2: cuadrat
-%
+
    DX = lx/numx;
    DY = ly/numy;
    nodo=0;
@@ -38,11 +37,18 @@ function [in,xx,iel,conec]=gen2d3n(lx,numx,ly,numy,file)
        end
    end
 
-%   NXX  = [in(:) xx(:,1:3)];
-%   ELEM = [iel(:) conec(:,1:3)];
+ %  NXX  = [in(:) xx(:,1:3)];
+ % ELEM = [iel(:) conec(:,1:3)];
+  
    fid = fopen(file,'wt');
    fprintf(fid,'     %d \n', length(in));
    fprintf(fid,'     %d     %f      %f     %f \n', [in(:) xx(:,1:3)]' );
    fprintf(fid,'     %d \n', length(iel));
    fprintf(fid,'     %d     %d      %d     %d \n', [iel(:) conec(:,1:3)]' );
    fclose (fid);
+   
+    
+   
+   
+   
+end

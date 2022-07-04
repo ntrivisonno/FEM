@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width=" 1104.00" height="465.00" >
+
+<svg x="0.00" y="0.00" width=" 1104.00" height="465.00" >
+<rect x="0" y="0" width="1104.00" height="465.00" 	 style= "fill: #FFFFFF; " /> 
+<polygon style= "fill: #0000C5; opacity:1.00 " points="274.13,257.21 197.59,208.48 201.94,205.82 " />
+<polygon style= "fill: #0000DF; opacity:1.00 " points="201.94,205.82 197.59,208.48 198.02,120.82 " />
+<polygon style= "fill: #0000C5; opacity:1.00 " points="272.80,250.63 274.13,257.21 201.94,205.82 " />
+<line x1="197.59" y1="208.48"  x2="273.68" y2="256.93" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #0000DF; opacity:1.00 " points="197.59,208.48 193.06,116.51 198.02,120.82 " />
+<line x1="197.59" y1="208.48"  x2="193.09" y2="117.04" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #0047C5; opacity:1.00 " points="272.80,250.63 201.94,205.82 206.38,203.11 " />
+<polygon style= "fill: #0050DF; opacity:1.00 " points="206.38,203.11 201.94,205.82 203.04,125.20 " />
+<polygon style= "fill: #008FC5; opacity:1.00 " points="271.46,243.96 206.38,203.11 210.93,200.34 " />
+<polygon style= "fill: #00A2DF; opacity:1.00 " points="210.93,200.34 206.38,203.11 208.12,129.63 " />
+<polygon style= "fill: #0050DF; opacity:1.00 " points="201.94,205.82 198.02,120.82 203.04,125.20 " />
+<polygon style= "fill: #00C5B2; opacity:1.00 " points="270.10,237.20 210.93,200.34 215.58,197.50 " />
+<polygon style= "fill: #0047C5; opacity:1.00 " points="271.46,243.96 272.80,250.63 206.38,203.11 " />
+<polygon style= "fill: #00DFCA; opacity:1.00 " points="215.58,197.50 210.93,200.34 213.27,134.12 " />
+<polygon style= "fill: #00A2DF; opacity:1.00 " points="206.38,203.11 203.04,125.20 208.12,129.63 " />
+<polygon style= "fill: #00C56B; opacity:1.00 " points="268.72,230.36 215.58,197.50 220.34,194.60 " />
+<polygon style= "fill: #008FC5; opacity:1.00 " points="270.10,237.20 271.46,243.96 210.93,200.34 " />
+<polygon style= "fill: #00DF7A; opacity:1.00 " points="220.34,194.60 215.58,197.50 218.48,138.66 " />
+<polygon style= "fill: #00DFCA; opacity:1.00 " points="210.93,200.34 208.12,129.63 213.27,134.12 " />
+<polygon style= "fill: #00C5B2; opacity:1.00 " points="268.72,230.36 270.10,237.20 215.58,197.50 " />
+<polygon style= "fill: #00C523; opacity:1.00 " points="267.32,223.43 220.34,194.60 225.21,191.63 " />
+<polygon style= "fill: #00DF28; opacity:1.00 " points="225.21,191.63 220.34,194.60 223.77,143.27 " />
+<polygon style= "fill: #00C56B; opacity:1.00 " points="267.32,223.43 268.72,230.36 220.34,194.60 " />
+<polygon style= "fill: #23C500; opacity:1.00 " points="265.91,216.41 225.21,191.63 230.20,188.59 " />
+<polygon style= "fill: #28DF00; opacity:1.00 " points="230.20,188.59 225.21,191.63 229.13,147.94 " />
+<polygon style= "fill: #28DF00; opacity:1.00 " points="225.21,191.63 223.77,143.27 229.13,147.94 " />
+<polygon style= "fill: #6BC500; opacity:1.00 " points="264.47,209.29 230.20,188.59 235.30,185.47 " />
+<polygon style= "fill: #23C500; opacity:1.00 " points="264.47,209.29 265.91,216.41 230.20,188.59 " />
+<polygon style= "fill: #B2C500; opacity:1.00 " points="263.02,202.07 235.30,185.47 240.53,182.29 " />
+<polygon style= "fill: #6BC500; opacity:1.00 " points="263.02,202.07 264.47,209.29 235.30,185.47 " />
+<polygon style= "fill: #CADF00; opacity:1.00 " points="240.53,182.29 235.30,185.47 240.05,157.46 " />
+<polygon style= "fill: #DFA200; opacity:1.00 " points="245.89,179.02 240.53,182.29 245.63,162.32 " />
+<polygon style= "fill: #DFA200; opacity:1.00 " points="240.53,182.29 240.05,157.46 245.63,162.32 " />
+<polygon style= "fill: #C54700; opacity:1.00 " points="260.05,187.36 245.89,179.02 251.38,175.67 " />
+<polygon style= "fill: #DF5000; opacity:1.00 " points="245.89,179.02 245.63,162.32 251.28,167.25 " />
+<polygon style= "fill: #DF5000; opacity:1.00 " points="251.38,175.67 245.89,179.02 251.28,167.25 " />
+<polygon style= "fill: #C54700; opacity:1.00 " points="258.54,179.85 260.05,187.36 251.38,175.67 " />
+<polygon style= "fill: #C50000; opacity:1.00 " points="258.54,179.85 251.38,175.67 257.00,172.24 " />
+<polygon style= "fill: #DF0000; opacity:1.00 " points="251.38,175.67 251.28,167.25 257.00,172.24 " />
+<line x1="197.59" y1="208.48"  x2="257.00" y2="172.24" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #00DF7A; opacity:1.00 " points="215.58,197.50 213.27,134.12 218.48,138.66 " />
+<polygon style= "fill: #00DF28; opacity:1.00 " points="220.34,194.60 218.48,138.66 223.77,143.27 " />
+<polygon style= "fill: #00C523; opacity:1.00 " points="265.91,216.41 267.32,223.43 225.21,191.63 " />
+<polygon style= "fill: #7ADF00; opacity:1.00 " points="235.30,185.47 230.20,188.59 234.55,152.67 " />
+<polygon style= "fill: #0000DA; opacity:1.00 " points="193.06,116.51 187.93,12.10 274.87,53.66 " />
+<line x1="187.93" y1="12.10"  x2="193.06" y2="116.51" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #0000DA; opacity:1.00 " points="367.70,214.78 361.03,312.55 274.13,257.21 " />
+<line x1="274.13" y1="257.21"  x2="361.03" y2="312.55" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #7ADF00; opacity:1.00 " points="230.20,188.59 229.13,147.94 234.55,152.67 " />
+<polygon style= "fill: #CADF00; opacity:1.00 " points="235.30,185.47 234.55,152.67 240.05,157.46 " />
+<polygon style= "fill: #0000F0; opacity:1.00 " points="198.02,120.82 193.06,116.51 273.30,64.06 " />
+<polygon style= "fill: #00F0D9; opacity:1.00 " points="213.27,134.12 208.12,129.63 268.69,94.68 " />
+<polygon style= "fill: #00F083; opacity:1.00 " points="218.48,138.66 213.27,134.12 267.18,104.70 " />
+<polygon style= "fill: #0000BE; opacity:1.00 " points="367.70,214.78 274.13,257.21 272.80,250.63 " />
+<polygon style= "fill: #0044BE; opacity:1.00 " points="357.99,211.05 272.80,250.63 271.46,243.96 " />
+<polygon style= "fill: #008ABE; opacity:1.00 " points="348.37,207.35 271.46,243.96 270.10,237.20 " />
+<polygon style= "fill: #00BE68; opacity:1.00 " points="329.40,200.06 268.72,230.36 267.32,223.43 " />
+<polygon style= "fill: #00BE22; opacity:1.00 " points="320.05,196.47 267.32,223.43 265.91,216.41 " />
+<polygon style= "fill: #22BE00; opacity:1.00 " points="310.79,192.91 265.91,216.41 264.47,209.29 " />
+<polygon style= "fill: #68BE00; opacity:1.00 " points="301.62,189.38 264.47,209.29 263.02,202.07 " />
+<polygon style= "fill: #ACBE00; opacity:1.00 " points="292.53,185.89 263.02,202.07 261.54,194.77 " />
+<polygon style= "fill: #BE8A00; opacity:1.00 " points="283.52,182.43 261.54,194.77 260.05,187.36 " />
+<polygon style= "fill: #BE4400; opacity:1.00 " points="274.60,179.00 260.05,187.36 258.54,179.85 " />
+<polygon style= "fill: #BE8A00; opacity:1.00 " points="274.60,179.00 283.52,182.43 260.05,187.36 " />
+<polygon style= "fill: #ACBE00; opacity:1.00 " points="283.52,182.43 292.53,185.89 261.54,194.77 " />
+<polygon style= "fill: #68BE00; opacity:1.00 " points="292.53,185.89 301.62,189.38 263.02,202.07 " />
+<polygon style= "fill: #22BE00; opacity:1.00 " points="301.62,189.38 310.79,192.91 264.47,209.29 " />
+<polygon style= "fill: #00BE68; opacity:1.00 " points="320.05,196.47 329.40,200.06 267.32,223.43 " />
+<polygon style= "fill: #0044BE; opacity:1.00 " points="348.37,207.35 357.99,211.05 271.46,243.96 " />
+<polygon style= "fill: #0000BE; opacity:1.00 " points="357.99,211.05 367.70,214.78 272.80,250.63 " />
+<line x1="274.13" y1="257.21"  x2="257.12" y2="172.80" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #F00000; opacity:1.00 " points="251.28,167.25 258.42,162.86 257.00,172.24 " />
+<polygon style= "fill: #0056F0; opacity:1.00 " points="203.04,125.20 198.02,120.82 271.75,74.37 " />
+<polygon style= "fill: #00AEF0; opacity:1.00 " points="208.12,129.63 203.04,125.20 270.21,84.57 " />
+<polygon style= "fill: #00F02B; opacity:1.00 " points="223.77,143.27 218.48,138.66 265.69,114.62 " />
+<polygon style= "fill: #2BF000; opacity:1.00 " points="229.13,147.94 223.77,143.27 264.21,124.45 " />
+<polygon style= "fill: #83F000; opacity:1.00 " points="234.55,152.67 229.13,147.94 262.74,134.18 " />
+<polygon style= "fill: #D9F000; opacity:1.00 " points="240.05,157.46 234.55,152.67 261.29,143.83 " />
+<polygon style= "fill: #F05600; opacity:1.00 " points="251.28,167.25 245.63,162.32 258.42,162.86 " />
+<polygon style= "fill: #F05600; opacity:1.00 " points="245.63,162.32 259.84,153.39 258.42,162.86 " />
+<polygon style= "fill: #F0AE00; opacity:1.00 " points="240.05,157.46 261.29,143.83 259.84,153.39 " />
+<polygon style= "fill: #D9F000; opacity:1.00 " points="234.55,152.67 262.74,134.18 261.29,143.83 " />
+<polygon style= "fill: #83F000; opacity:1.00 " points="229.13,147.94 264.21,124.45 262.74,134.18 " />
+<polygon style= "fill: #2BF000; opacity:1.00 " points="223.77,143.27 265.69,114.62 264.21,124.45 " />
+<polygon style= "fill: #00F02B; opacity:1.00 " points="218.48,138.66 267.18,104.70 265.69,114.62 " />
+<polygon style= "fill: #00F083; opacity:1.00 " points="213.27,134.12 268.69,94.68 267.18,104.70 " />
+<polygon style= "fill: #00F0D9; opacity:1.00 " points="208.12,129.63 270.21,84.57 268.69,94.68 " />
+<polygon style= "fill: #EB5400; opacity:1.00 " points="258.42,162.86 259.84,153.39 265.74,167.03 " />
+<polygon style= "fill: #00AEF0; opacity:1.00 " points="203.04,125.20 271.75,74.37 270.21,84.57 " />
+<polygon style= "fill: #0056F0; opacity:1.00 " points="198.02,120.82 273.30,64.06 271.75,74.37 " />
+<polygon style= "fill: #0000F0; opacity:1.00 " points="193.06,116.51 274.87,53.66 273.30,64.06 " />
+<polygon style= "fill: #EB5400; opacity:1.00 " points="259.84,153.39 274.67,161.72 265.74,167.03 " />
+<polygon style= "fill: #EBAA00; opacity:1.00 " points="259.84,153.39 261.29,143.83 274.67,161.72 " />
+<polygon style= "fill: #00EB2A; opacity:1.00 " points="265.69,114.62 267.18,104.70 312.32,139.30 " />
+<polygon style= "fill: #00EB80; opacity:1.00 " points="267.18,104.70 268.69,94.68 322.25,133.38 " />
+<polygon style= "fill: #00EB2A; opacity:1.00 " points="267.18,104.70 322.25,133.38 312.32,139.30 " />
+<line x1="193.06" y1="116.51"  x2="274.33" y2="54.07" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #0000EB; opacity:1.00 " points="273.30,64.06 274.87,53.66 364.30,108.35 " />
+<line x1="274.87" y1="53.66"  x2="257.11" y2="171.55" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #D00000; opacity:1.00 " points="265.74,167.03 265.76,175.61 257.00,172.24 " />
+<polygon style= "fill: #D04B00; opacity:1.00 " points="274.67,161.72 274.60,179.00 265.76,175.61 " />
+<polygon style= "fill: #D04B00; opacity:1.00 " points="265.74,167.03 274.67,161.72 265.76,175.61 " />
+<polygon style= "fill: #D09700; opacity:1.00 " points="283.78,156.29 283.52,182.43 274.60,179.00 " />
+<polygon style= "fill: #D09700; opacity:1.00 " points="274.67,161.72 283.78,156.29 274.60,179.00 " />
+<polygon style= "fill: #BCD000; opacity:1.00 " points="293.09,150.75 292.53,185.89 283.52,182.43 " />
+<polygon style= "fill: #BCD000; opacity:1.00 " points="283.78,156.29 293.09,150.75 283.52,182.43 " />
+<polygon style= "fill: #71D000; opacity:1.00 " points="302.60,145.09 301.62,189.38 292.53,185.89 " />
+<polygon style= "fill: #71D000; opacity:1.00 " points="293.09,150.75 302.60,145.09 292.53,185.89 " />
+<polygon style= "fill: #00D025; opacity:1.00 " points="322.25,133.38 320.05,196.47 310.79,192.91 " />
+<polygon style= "fill: #25D000; opacity:1.00 " points="302.60,145.09 312.32,139.30 301.62,189.38 " />
+<polygon style= "fill: #2AEB00; opacity:1.00 " points="265.69,114.62 312.32,139.30 302.60,145.09 " />
+<polygon style= "fill: #00D071; opacity:1.00 " points="332.41,127.34 329.40,200.06 320.05,196.47 " />
+<polygon style= "fill: #00D025; opacity:1.00 " points="312.32,139.30 322.25,133.38 310.79,192.91 " />
+<polygon style= "fill: #00D0BC; opacity:1.00 " points="342.80,121.15 338.84,203.69 329.40,200.06 " />
+<polygon style= "fill: #00D071; opacity:1.00 " points="322.25,133.38 332.41,127.34 320.05,196.47 " />
+<polygon style= "fill: #0054EB; opacity:1.00 " points="271.75,74.37 273.30,64.06 353.43,114.82 " />
+<polygon style= "fill: #004BD0; opacity:1.00 " points="364.30,108.35 357.99,211.05 348.37,207.35 " />
+<polygon style= "fill: #00D0BC; opacity:1.00 " points="332.41,127.34 342.80,121.15 329.40,200.06 " />
+<polygon style= "fill: #0000D0; opacity:1.00 " points="375.43,101.72 367.70,214.78 357.99,211.05 " />
+<polygon style= "fill: #0097D0; opacity:1.00 " points="342.80,121.15 353.43,114.82 338.84,203.69 " />
+<polygon style= "fill: #00AAEB; opacity:1.00 " points="271.75,74.37 353.43,114.82 342.80,121.15 " />
+<polygon style= "fill: #004BD0; opacity:1.00 " points="353.43,114.82 364.30,108.35 348.37,207.35 " />
+<polygon style= "fill: #0054EB; opacity:1.00 " points="273.30,64.06 364.30,108.35 353.43,114.82 " />
+<polygon style= "fill: #0000D0; opacity:1.00 " points="364.30,108.35 375.43,101.72 357.99,211.05 " />
+<line x1="367.70" y1="214.78"  x2="375.38" y2="102.38" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #0000EB; opacity:1.00 " points="274.87,53.66 375.43,101.72 364.30,108.35 " />
+<line x1="375.43" y1="101.72"  x2="257.53" y2="171.93" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<line x1="257.00" y1="172.24"  x2="193.06" y2="116.51" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #BE0000; opacity:1.00 " points="265.76,175.61 258.54,179.85 257.00,172.24 " />
+<line x1="257.00" y1="172.24"  x2="257.00" y2="172.24" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<line x1="193.06" y1="116.51"  x2="193.06" y2="116.51" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<line x1="274.13" y1="257.21"  x2="274.13" y2="257.21" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #B2C500; opacity:1.00 " points="261.54,194.77 263.02,202.07 240.53,182.29 " />
+<polygon style= "fill: #C58F00; opacity:1.00 " points="261.54,194.77 240.53,182.29 245.89,179.02 " />
+<polygon style= "fill: #00BEAC; opacity:1.00 " points="338.84,203.69 270.10,237.20 268.72,230.36 " />
+<polygon style= "fill: #C58F00; opacity:1.00 " points="260.05,187.36 261.54,194.77 245.89,179.02 " />
+<line x1="367.70" y1="214.78"  x2="274.13" y2="257.21" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<line x1="274.87" y1="53.66"  x2="274.87" y2="53.66" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #F0AE00; opacity:1.00 " points="245.63,162.32 240.05,157.46 259.84,153.39 " />
+<polygon style= "fill: #BE4400; opacity:1.00 " points="265.76,175.61 274.60,179.00 258.54,179.85 " />
+<polygon style= "fill: #EB0000; opacity:1.00 " points="258.42,162.86 265.74,167.03 257.00,172.24 " />
+<polygon style= "fill: #00BE22; opacity:1.00 " points="310.79,192.91 320.05,196.47 265.91,216.41 " />
+<polygon style= "fill: #00BEAC; opacity:1.00 " points="329.40,200.06 338.84,203.69 268.72,230.36 " />
+<polygon style= "fill: #008ABE; opacity:1.00 " points="338.84,203.69 348.37,207.35 270.10,237.20 " />
+<polygon style= "fill: #D5EB00; opacity:1.00 " points="261.29,143.83 262.74,134.18 283.78,156.29 " />
+<polygon style= "fill: #EBAA00; opacity:1.00 " points="261.29,143.83 283.78,156.29 274.67,161.72 " />
+<line x1="274.87" y1="53.66"  x2="187.93" y2="12.10" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<line x1="361.03" y1="312.55"  x2="367.70" y2="214.78" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #80EB00; opacity:1.00 " points="262.74,134.18 264.21,124.45 293.09,150.75 " />
+<polygon style= "fill: #25D000; opacity:1.00 " points="312.32,139.30 310.79,192.91 301.62,189.38 " />
+<polygon style= "fill: #0097D0; opacity:1.00 " points="353.43,114.82 348.37,207.35 338.84,203.69 " />
+<line x1="367.70" y1="214.78"  x2="257.00" y2="172.24" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<line x1="257.11" y1="171.55"  x2="257.11" y2="171.55" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #D5EB00; opacity:1.00 " points="262.74,134.18 293.09,150.75 283.78,156.29 " />
+<polygon style= "fill: #2AEB00; opacity:1.00 " points="264.21,124.45 265.69,114.62 302.60,145.09 " />
+<polygon style= "fill: #80EB00; opacity:1.00 " points="264.21,124.45 302.60,145.09 293.09,150.75 " />
+<polygon style= "fill: #00EBD5; opacity:1.00 " points="268.69,94.68 270.21,84.57 332.41,127.34 " />
+<polygon style= "fill: #00AAEB; opacity:1.00 " points="270.21,84.57 271.75,74.37 342.80,121.15 " />
+<polygon style= "fill: #00EB80; opacity:1.00 " points="268.69,94.68 332.41,127.34 322.25,133.38 " />
+<line x1="257.53" y1="171.93"  x2="257.53" y2="171.93" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #00EBD5; opacity:1.00 " points="270.21,84.57 342.80,121.15 332.41,127.34 " />
+<line x1="375.43" y1="101.72"  x2="375.43" y2="101.72" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<line x1="375.43" y1="101.72"  x2="274.87" y2="53.66" style= "stroke: #000000;stroke-width:0.79; stroke-dasharray: 0 " /> 
+<polygon style= "fill: #0000FF; opacity:1.00 " points="33.06,174.30 49.53,174.30 49.53,163.30 " />
+<polygon style= "fill: #0000FF; opacity:1.00 " points="49.53,163.30 33.06,163.30 33.06,174.30 " />
+<polygon style= "fill: #005CFF; opacity:1.00 " points="33.06,163.30 49.53,163.30 49.53,152.30 " />
+<polygon style= "fill: #005CFF; opacity:1.00 " points="49.53,152.30 33.06,152.30 33.06,163.30 " />
+<polygon style= "fill: #00B9FF; opacity:1.00 " points="33.06,152.30 49.53,152.30 49.53,141.30 " />
+<polygon style= "fill: #00B9FF; opacity:1.00 " points="49.53,141.30 33.06,141.30 33.06,152.30 " />
+<polygon style= "fill: #00FFE7; opacity:1.00 " points="33.06,141.30 49.53,141.30 49.53,130.30 " />
+<polygon style= "fill: #00FFE7; opacity:1.00 " points="49.53,130.30 33.06,130.30 33.06,141.30 " />
+<polygon style= "fill: #00FF8B; opacity:1.00 " points="33.06,130.30 49.53,130.30 49.53,119.30 " />
+<polygon style= "fill: #00FF8B; opacity:1.00 " points="49.53,119.30 33.06,119.30 33.06,130.30 " />
+<polygon style= "fill: #00FF2E; opacity:1.00 " points="33.06,119.30 49.53,119.30 49.53,108.30 " />
+<polygon style= "fill: #00FF2E; opacity:1.00 " points="49.53,108.30 33.06,108.30 33.06,119.30 " />
+<polygon style= "fill: #2EFF00; opacity:1.00 " points="33.06,108.30 49.53,108.30 49.53,97.30 " />
+<polygon style= "fill: #2EFF00; opacity:1.00 " points="49.53,97.30 33.06,97.30 33.06,108.30 " />
+<polygon style= "fill: #8BFF00; opacity:1.00 " points="33.06,97.30 49.53,97.30 49.53,86.30 " />
+<polygon style= "fill: #8BFF00; opacity:1.00 " points="49.53,86.30 33.06,86.30 33.06,97.30 " />
+<polygon style= "fill: #E7FF00; opacity:1.00 " points="33.06,86.30 49.53,86.30 49.53,75.30 " />
+<polygon style= "fill: #E7FF00; opacity:1.00 " points="49.53,75.30 33.06,75.30 33.06,86.30 " />
+<polygon style= "fill: #FFB900; opacity:1.00 " points="33.06,75.30 49.53,75.30 49.53,64.30 " />
+<polygon style= "fill: #FFB900; opacity:1.00 " points="49.53,64.30 33.06,64.30 33.06,75.30 " />
+<polygon style= "fill: #FF5C00; opacity:1.00 " points="33.06,64.30 49.53,64.30 49.53,53.30 " />
+<polygon style= "fill: #FF5C00; opacity:1.00 " points="49.53,53.30 33.06,53.30 33.06,64.30 " />
+<polygon style= "fill: #FF0000; opacity:1.00 " points="33.06,53.30 49.53,53.30 49.53,42.30 " />
+<polygon style= "fill: #FF0000; opacity:1.00 " points="49.53,42.30 33.06,42.30 33.06,53.30 " />
+<polygon style= "fill: #7F0000; opacity:1.00 " points="102.35,429.84 102.11,429.14 101.50,428.98 " />
+<polygon style= "fill: #7F0000; opacity:1.00 " points="102.35,429.84 101.50,428.98 100.74,429.42 " />
+<polygon style= "fill: #7F0000; opacity:1.00 " points="102.35,429.84 100.74,429.42 100.13,430.29 " />
+<polygon style= "fill: #7F0000; opacity:1.00 " points="102.35,429.84 100.13,430.29 99.89,431.26 " />
+<polygon style= "fill: #7F0000; opacity:1.00 " points="102.35,429.84 99.89,431.26 100.13,431.96 " />
+<polygon style= "fill: #7F0000; opacity:1.00 " points="102.35,429.84 100.13,431.96 100.74,432.13 " />
+<polygon style= "fill: #7F0000; opacity:1.00 " points="102.35,429.84 100.74,432.13 101.50,431.68 " />
+<polygon style= "fill: #7F0000; opacity:1.00 " points="102.35,429.84 101.50,431.68 102.11,430.81 " />
+<script type="text/ecmascript"><![CDATA[
+var svgdoc, root; 
+var fTol = 2000.;
+var fBlueTol = 0.05 * fTol;
+var fGreenTol = 0.017 * fTol;
+var fRedTol = 0.032 * fTol;
+var svgnsz="http://www.w3.org/2000/svg";
+var version = 'Viewer unknown';
+try
+{
+version = window.getSVGViewerVersion();
+if(version.search("Adobe") != -1)
+{
+svgnsz = null;
+}
+}
+catch(er)
+{
+}
+function SubDivideTriangle(evt, x1,y1,x2,y2,x3,y3,c1R,c1G,c1B,c2R,c2G,c2B,c3R,c3G,c3B,alpha)
+{
+svgdoc=evt.target.ownerDocument;
+root=evt.target;
+
+if(Math.abs(c2B - c1B) > fBlueTol ||
+Math.abs(c2G - c1G) > fGreenTol ||
+Math.abs(c2R - c1R) > fRedTol ||
+Math.abs(c3B - c1B) > fBlueTol ||
+Math.abs(c3G - c1G) > fGreenTol ||
+Math.abs(c3R - c1R) > fRedTol ||
+Math.abs(c2B - c3B) > fBlueTol ||
+Math.abs(c2G - c3G) > fGreenTol ||
+Math.abs(c2R - c3R) > fRedTol )
+{
+var v1x = 0.5*(x1+x2);
+var v1y = 0.5*(y1+y2);
+var v2x = 0.5*(x1+x3);
+var v2y = 0.5*(y1+y3);
+var v3x = 0.5*(x2+x3);
+var v3y = 0.5*(y2+y3);
+var c1r = 0.5*(c1R+c2R);
+var c1g = 0.5*(c1G+c2G);
+var c1b = 0.5*(c1B+c2B);
+var c2r = 0.5*(c1R+c3R);
+var c2g = 0.5*(c1G+c3G);
+var c2b = 0.5*(c1B+c3B);
+var c3r = 0.5*(c2R+c3R);
+var c3g = 0.5*(c2G+c3G);
+var c3b = 0.5*(c2B+c3B);
+SubDivideTriangle(evt,x1,y1,v1x,v1y,v2x,v2y, c1R,c1G,c1B,c1r,c1g,c1b,c2r,c2g,c2b, alpha);
+SubDivideTriangle(evt,v1x,v1y,v2x,v2y,v3x,v3y, c1r,c1g,c1b,c2r,c2g,c2b,c3r,c3g,c3b,alpha);
+SubDivideTriangle(evt,v1x,v1y,x2,y2,v3x,v3y, c1r,c1g,c1b,c2R,c2G,c2B,c3r,c3g,c3b,alpha);
+SubDivideTriangle(evt,v2x,v2y,v3x,v3y,x3,y3, c2r,c2g,c2b,c3r,c3g,c3b,c3R,c3G,c3B,alpha);
+}
+else
+{
+obj = svgdoc.createElementNS(svgnsz,'polygon');
+str = String(x1) + "," + String(y1) + " " + String(x2) + "," + String(y2) + " " + String(x3) + "," + String(y3) ;
+obj.setAttributeNS(null,'points', str);
+var rc = Math.round((c1R+c2R+c3R)/3.0).toString(16);
+var gc = Math.round((c1G+c2G+c3G)/3.0).toString(16);
+var bc = Math.round((c1B+c2B+c3B)/3.0).toString(16);
+if(rc.length == 1) rc = "0"+rc;
+if(gc.length == 1) gc = "0"+gc;
+if(bc.length == 1) bc = "0"+bc;
+cStr = "#" + rc + gc + bc;
+aStr = String(alpha);
+obj.setAttributeNS(null, "style", "fill:" + cStr + "; stroke:" + cStr + "; opacity:" + aStr );
+aStr = String(alpha);
+obj.setAttributeNS(null,"opacity", aStr);
+root.appendChild(obj);
+}
+}
+]]></script>
+<g onload="SubDivideTriangle(evt,87.33,424.56,100.13,431.96,99.89,431.26,135,0,0,135,0,0,185,0,0,1.00)" />
+<g onload="SubDivideTriangle(evt,99.89,431.26,87.09,423.86,87.33,424.56,185,0,0,185,0,0,135,0,0,1.00)" />
+<g onload="SubDivideTriangle(evt,87.09,423.86,99.89,431.26,100.13,430.29,185,0,0,185,0,0,215,1,1,1.00)" />
+<g onload="SubDivideTriangle(evt,100.13,430.29,87.33,422.89,87.09,423.86,215,1,1,215,1,1,185,0,0,1.00)" />
+<g onload="SubDivideTriangle(evt,87.33,422.89,100.13,430.29,100.74,429.42,215,1,1,215,1,1,208,0,0,1.00)" />
+<g onload="SubDivideTriangle(evt,100.74,429.42,87.94,422.01,87.33,422.89,208,0,0,208,0,0,215,1,1,1.00)" />
+<g onload="SubDivideTriangle(evt,87.94,422.01,100.74,429.42,101.50,428.98,208,0,0,208,0,0,172,0,0,1.00)" />
+<g onload="SubDivideTriangle(evt,101.50,428.98,88.70,421.57,87.94,422.01,172,0,0,172,0,0,208,0,0,1.00)" />
+<g onload="SubDivideTriangle(evt,88.70,421.57,101.50,428.98,102.11,429.14,172,0,0,172,0,0,127,0,0,1.00)" />
+<g onload="SubDivideTriangle(evt,102.11,429.14,89.32,421.73,88.70,421.57,127,0,0,127,0,0,172,0,0,1.00)" />
+<g onload="SubDivideTriangle(evt,108.01,434.54,103.77,426.78,102.13,426.35,127,0,0,127,0,0,167,0,0,1.00)" />
+<g onload="SubDivideTriangle(evt,108.01,434.54,102.13,426.35,100.11,427.53,127,0,0,167,0,0,200,0,0,1.00)" />
+<g onload="SubDivideTriangle(evt,108.01,434.54,100.11,427.53,98.46,429.86,127,0,0,200,0,0,242,28,28,1.00)" />
+<g onload="SubDivideTriangle(evt,108.01,434.54,98.46,429.86,97.84,432.45,127,0,0,242,28,28,180,0,0,1.00)" />
+<g onload="SubDivideTriangle(evt,108.01,434.54,97.84,432.45,98.46,434.32,127,0,0,180,0,0,134,0,0,1.00)" />
+<g onload="SubDivideTriangle(evt,108.01,434.54,98.46,434.32,100.11,434.75,127,0,0,134,0,0,127,0,0,1.00)" />
+<polygon style= "fill: #00C100; opacity:1.00 " points="89.55,409.05 90.04,408.50 89.88,407.88 " />
+<polygon style= "fill: #00C100; opacity:1.00 " points="89.55,409.05 89.88,407.88 89.11,407.44 " />
+<polygon style= "fill: #00C100; opacity:1.00 " points="89.55,409.05 89.11,407.44 88.05,407.34 " />
+<polygon style= "fill: #00C100; opacity:1.00 " points="89.55,409.05 88.05,407.34 87.09,407.63 " />
+<polygon style= "fill: #00C100; opacity:1.00 " points="89.55,409.05 87.09,407.63 86.61,408.18 " />
+<polygon style= "fill: #00C100; opacity:1.00 " points="89.55,409.05 86.61,408.18 86.77,408.80 " />
+<polygon style= "fill: #00C100; opacity:1.00 " points="89.55,409.05 86.77,408.80 87.54,409.24 " />
+<polygon style= "fill: #00C100; opacity:1.00 " points="89.55,409.05 87.54,409.24 88.59,409.34 " />
+<g onload="SubDivideTriangle(evt,89.55,423.86,89.55,409.05,88.59,409.34,0,127,0,0,127,0,0,161,0,1.00)" />
+<g onload="SubDivideTriangle(evt,88.59,409.34,88.59,424.14,89.55,423.86,0,161,0,0,161,0,0,127,0,1.00)" />
+<g onload="SubDivideTriangle(evt,88.59,424.14,88.59,409.34,87.54,409.24,0,161,0,0,161,0,0,183,0,1.00)" />
+<g onload="SubDivideTriangle(evt,87.54,409.24,87.54,424.04,88.59,424.14,0,183,0,0,183,0,0,161,0,1.00)" />
+<polygon style= "fill: #00B700; opacity:1.00 " points="87.54,424.04 87.54,409.24 86.77,408.80 " />
+<polygon style= "fill: #00B700; opacity:1.00 " points="86.77,408.80 86.77,423.61 87.54,424.04 " />
+<g onload="SubDivideTriangle(evt,86.77,423.61,86.77,408.80,86.61,408.18,0,183,0,0,183,0,0,161,0,1.00)" />
+<g onload="SubDivideTriangle(evt,86.61,408.18,86.61,422.99,86.77,423.61,0,161,0,0,161,0,0,183,0,1.00)" />
+<polygon style= "fill: #007F00; opacity:1.00 " points="90.04,423.30 90.04,408.50 89.55,409.05 " />
+<polygon style= "fill: #007F00; opacity:1.00 " points="89.55,409.05 89.55,423.86 90.04,423.30 " />
+<g onload="SubDivideTriangle(evt,88.32,400.37,91.61,410.24,92.91,408.76,0,193,0,0,155,0,0,127,0,1.00)" />
+<g onload="SubDivideTriangle(evt,88.32,400.37,92.91,408.76,92.46,407.12,0,193,0,0,127,0,0,127,0,1.00)" />
+<g onload="SubDivideTriangle(evt,88.32,400.37,83.74,407.92,84.19,409.56,0,193,0,0,187,0,0,206,0,1.00)" />
+<g onload="SubDivideTriangle(evt,88.32,400.37,84.19,409.56,86.21,410.73,0,193,0,0,206,0,2,209,2,1.00)" />
+<g onload="SubDivideTriangle(evt,88.32,400.37,86.21,410.73,89.05,410.99,0,193,0,2,209,2,0,186,0,1.00)" />
+<g onload="SubDivideTriangle(evt,88.32,400.37,89.05,410.99,91.61,410.24,0,193,0,0,186,0,0,155,0,1.00)" />
+<polygon style= "fill: #0000B9; opacity:1.00 " points="76.76,431.26 76.52,430.29 75.91,429.42 " />
+<polygon style= "fill: #0000B9; opacity:1.00 " points="76.76,431.26 75.91,429.42 75.15,428.98 " />
+<polygon style= "fill: #0000B9; opacity:1.00 " points="76.76,431.26 75.15,428.98 74.53,429.14 " />
+<polygon style= "fill: #0000B9; opacity:1.00 " points="76.76,431.26 74.53,429.14 74.30,429.84 " />
+<polygon style= "fill: #0000B9; opacity:1.00 " points="76.76,431.26 74.30,429.84 74.53,430.81 " />
+<polygon style= "fill: #0000B9; opacity:1.00 " points="76.76,431.26 74.53,430.81 75.15,431.68 " />
+<polygon style= "fill: #0000B9; opacity:1.00 " points="76.76,431.26 75.15,431.68 75.91,432.13 " />
+<polygon style= "fill: #0000B9; opacity:1.00 " points="76.76,431.26 75.91,432.13 76.52,431.96 " />
+<polygon style= "fill: #00007F; opacity:1.00 " points="89.55,423.86 76.76,431.26 76.52,431.96 " />
+<polygon style= "fill: #00007F; opacity:1.00 " points="76.52,431.96 89.32,424.56 89.55,423.86 " />
+<g onload="SubDivideTriangle(evt,87.33,421.73,74.53,429.14,75.15,428.98,0,0,166,0,0,166,0,0,190,1.00)" />
+<g onload="SubDivideTriangle(evt,75.15,428.98,87.94,421.57,87.33,421.73,0,0,190,0,0,190,0,0,166,1.00)" />
+<polygon style= "fill: #0000BE; opacity:1.00 " points="87.94,421.57 75.15,428.98 75.91,429.42 " />
+<polygon style= "fill: #0000BE; opacity:1.00 " points="75.91,429.42 88.70,422.01 87.94,421.57 " />
+<g onload="SubDivideTriangle(evt,88.70,422.01,75.91,429.42,76.52,430.29,0,0,190,0,0,190,0,0,166,1.00)" />
+<g onload="SubDivideTriangle(evt,76.52,430.29,89.32,422.89,88.70,422.01,0,0,166,0,0,166,0,0,190,1.00)" />
+<g onload="SubDivideTriangle(evt,89.32,422.89,76.52,430.29,76.76,431.26,0,0,166,0,0,166,0,0,127,1.00)" />
+<g onload="SubDivideTriangle(evt,76.76,431.26,89.55,423.86,89.32,422.89,0,0,127,0,0,127,0,0,166,1.00)" />
+<g onload="SubDivideTriangle(evt,68.64,434.54,78.81,432.45,78.18,429.86,0,0,185,0,0,152,0,0,187,1.00)" />
+<g onload="SubDivideTriangle(evt,68.64,434.54,78.18,429.86,76.54,427.53,0,0,185,0,0,187,11,11,224,1.00)" />
+<g onload="SubDivideTriangle(evt,68.64,434.54,76.54,427.53,74.51,426.35,0,0,185,11,11,224,0,0,209,1.00)" />
+<g onload="SubDivideTriangle(evt,68.64,434.54,74.51,426.35,72.87,426.78,0,0,185,0,0,209,0,0,187,1.00)" />
+<g onload="SubDivideTriangle(evt,68.64,434.54,76.54,434.75,78.18,434.32,0,0,185,0,0,127,0,0,127,1.00)" />
+<g onload="SubDivideTriangle(evt,68.64,434.54,78.18,434.32,78.81,432.45,0,0,185,0,0,127,0,0,152,1.00)" />
+<line x1="149.48" y1="9.30"  x2="22.08" y2="9.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="22.08" y1="9.30"  x2="22.08" y2="185.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="22.08" y1="185.30"  x2="149.48" y2="185.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="149.48" y1="185.30"  x2="149.48" y2="9.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="174.30"  x2="55.02" y2="174.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="163.30"  x2="55.02" y2="163.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="152.30"  x2="55.02" y2="152.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="141.30"  x2="55.02" y2="141.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="130.30"  x2="55.02" y2="130.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="119.30"  x2="55.02" y2="119.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="108.30"  x2="55.02" y2="108.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="97.30"  x2="55.02" y2="97.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="86.30"  x2="55.02" y2="86.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="75.30"  x2="55.02" y2="75.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="64.30"  x2="55.02" y2="64.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="53.30"  x2="55.02" y2="53.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="42.30"  x2="55.02" y2="42.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="174.30"  x2="33.06" y2="42.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="33.06" y1="42.30"  x2="49.53" y2="42.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="49.53" y1="42.30"  x2="49.53" y2="174.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<line x1="49.53" y1="174.30"  x2="33.06" y2="174.30" style= "stroke: #000000;stroke-width:0.70; stroke-dasharray: 0 " /> 
+<text x="33.06" y="31.30" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ U, U3 
+ </text>
+<text x="60.50" y="177.05" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ +0.000e+00 
+ </text>
+<text x="60.50" y="166.05" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ +1.626e-03 
+ </text>
+<text x="60.50" y="155.05" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ +3.251e-03 
+ </text>
+<text x="60.50" y="144.05" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ +4.877e-03 
+ </text>
+<text x="60.50" y="133.05" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ +6.502e-03 
+ </text>
+<text x="60.50" y="122.05" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ +8.128e-03 
+ </text>
+<text x="60.50" y="111.05" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ +9.753e-03 
+ </text>
+<text x="60.50" y="100.05" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ +1.138e-02 
+ </text>
+<text x="60.50" y="89.05" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ +1.300e-02 
+ </text>
+<text x="60.50" y="78.05" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ +1.463e-02 
+ </text>
+<text x="60.50" y="67.05" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ +1.626e-02 
+ </text>
+<text x="60.50" y="56.05" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ +1.788e-02 
+ </text>
+<text x="60.50" y="45.05" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ +1.951e-02 
+ </text>
+<text x="149.01" y="420.20" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ Step: Step-1 
+ </text>
+<text x="149.01" y="432.30" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ Increment      1: Step Time =    1.000 
+ </text>
+<text x="149.01" y="444.40" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ Primary Var: U, U3 
+ </text>
+<text x="149.01" y="456.50" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ Deformed Var: U   Deformation Scale Factor: +5.127e+01 
+ </text>
+<text x="149.01" y="383.00" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+  
+ </text>
+<text x="149.01" y="395.10" style=" font-family:verdana; font-weight:normal; font-style:normal; font-size:11.21; fill:#000000;" > 
+ ODB: Job-1.odb    Abaqus/Standard 6.14-1    Wed Apr 01 16:19:00 GMT-03:00 2020 
+ </text>
+<text x="111.53" y="443.26" style=" font-family:verdana; font-weight:bold; font-style:normal; font-size:14.01; fill:#000000;" > 
+ X 
+ </text>
+<text x="83.32" y="393.43" style=" font-family:verdana; font-weight:bold; font-style:normal; font-size:14.01; fill:#000000;" > 
+ Y 
+ </text>
+<text x="54.61" y="443.26" style=" font-family:verdana; font-weight:bold; font-style:normal; font-size:14.01; fill:#000000;" > 
+ Z 
+ </text>
+</svg>
+</svg>

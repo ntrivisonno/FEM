@@ -1,4 +1,4 @@
-% 
+% usar matlab, no octave 
 %   Archivo script : secuencia de llamados para resolucion
 %                    de un problema de elementos finitos
 %
@@ -20,7 +20,14 @@
 %                 organizada en forma sparse (fila,columna,termino)
 %   u:     vector solucion
 %
-addpath 'Prg' 'mallas';
+%clear all;close all;clc
+tStart = tic;
+addpath '~/Documents/CIMEC/Cursos/FEM/pract/guia2/ej1/Prg';
+addpath '~/Documents/CIMEC/Cursos/FEM/pract/guia2/ej1/mallas';
+%file ='malla5x5.txt' % ir cambiando los nombres para las demas mallas
+%file ='malla10x10.txt'
+file ='malla20x20.txt'
+%file ='malla40x40.txt'
 %
 %   1. Lectura de datos
 %
@@ -42,3 +49,6 @@ addpath 'Prg' 'mallas';
 %
     [u,S] = getsol(row,col,sk,fixa,vfix,f);
     
+time = toc(tStart);
+fprintf('*-----------------------------------------------*\n')
+fprintf('\n\nFIN! - OK - time = %d[s].\n',time)
