@@ -1,3 +1,4 @@
+%run in matlabxx
 %function plotVelocity(lenx,numx,leny,numy,u)
 %lenx: longitud del dominio en la dirección x 
 %leny: longitud del dominio en la dirección y 
