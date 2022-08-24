@@ -1,6 +1,8 @@
 % Ej 01 - Guia N06 
-clear all
-clc
+clear all;clc
+warning('off','all'); %disable all warning
+addpath('~/Documents/CIMEC/Cursos/FEM/pract/funciones_auxiliares/')
+tStart = tic; % son timer de multivariables, para cuando hay muchos timers en el prog
 
 %Canidad de Nodos:
 n=11;
@@ -28,3 +30,7 @@ x = x'
 u = u
 uex = uex'
 xex = xex'
+
+time = toc(tStart);
+fprintf('*-----------------------------------------------*\n')
+fprintf('\n\nFIN! - OK - time = %d[s].\n',time)
